@@ -1,0 +1,23 @@
+# Allong: Walking Buddy
+
+> Allong (Korean App Store name: 알롱) is a free iPhone step counter and walking game. You hatch a small creature from an egg and walk together. Turn walks into adventures. Coming soon to the App Store.
+
+## Facts
+- Platform: iOS (iPhone). Free to play, no in-app purchases.
+- Genre and search terms: walking game, step counter (pedometer), pixel RPG, creature raising like a virtual pet (Korean: 키우기, 육성), egg hatching, map exploration.
+- Age: ages 14 and up; the app checks your age when you first open it.
+- Steps are counted from the distance you actually move.
+- Explore: walk a real map, pick up materials, and meet all kinds of Dallongs along the way, and battle them.
+- Craft and outfits: make outfits and tools from materials.
+- Widgets: Home Screen and Lock Screen widgets and a Live Activity while exploring.
+- Accounts: you start as a guest; linking an Apple or Google account restores your Allong on a new device.
+- Data: no ads, no tracking; location stays on the device. See the Privacy Policy below.
+- Coming soon (no order or dates, plans may change): friends, raids, crews, an exchange.
+- Languages: 14, including English and Korean.
+
+## Pages
+- English: https://allong.my/en/
+- Korean: https://allong.my/ko/
+- Privacy Policy: https://jongin-2.github.io/ihwa/privacy/en/
+- Terms of Use: https://jongin-2.github.io/ihwa/terms/en/
+- Support: https://jongin-2.github.io/ihwa/support/en/ (contact: ihwa.support@gmail.com)

@@ -227,3 +227,7 @@ h1,h2,h3,.tagline,.lead,.feat-txt p,.soon-i h3,.plans,.note{text-wrap:balance}
 }
 .soonstore{display:inline-flex;align-items:center;min-height:48px;padding:0 20px;border-radius:12px;background:#0f0c16;color:#fff;font-weight:700;font-size:16px;white-space:nowrap}
 @media (prefers-color-scheme:dark){.soonstore{background:#fff;color:#0f0c16}}
+/* 출시 전 공개판: 게임 화면 아래 옅은 '개발 중' 안내 — 카드 아래 여백 안에 둠 */
+.wip{position:absolute;left:0;right:0;bottom:22px;margin:0;text-align:center;font-size:.75rem;line-height:1.4;color:currentColor;opacity:.45}
+.hero-ph:has(.wip){height:400px}.hero-ph .wip{bottom:10px}
+@media (min-width:900px){.feat-ph .wip{bottom:44px}.hero-ph:has(.wip){height:640px}.hero-ph .wip{bottom:-6px;padding-left:120px}}

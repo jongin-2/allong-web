@@ -45,7 +45,7 @@ h3{font-size:1.25rem;line-height:1.3;margin:0 0 6px}
 /* 첫 화면 */
 .hero{position:relative;overflow:hidden;color:var(--on-d);background:radial-gradient(120% 70% at 78% 28%,var(--hero1) 0,transparent 60%),linear-gradient(165deg,var(--hero2),var(--hero3))}
 .hero-in{max-width:1240px;margin:0 auto;padding:86px 20px 0;display:flex;flex-direction:column;align-items:center;text-align:center}
-.face{order:-1;width:min(52vw,214px);height:auto;position:relative;z-index:3;margin:0 0 18px;filter:drop-shadow(0 14px 22px rgba(20,8,60,.35))}
+.face{order:-1;width:192px;height:auto;image-rendering:pixelated;position:relative;z-index:3;margin:0 0 18px;filter:drop-shadow(0 14px 22px rgba(20,8,60,.35))}
 h1{font-size:clamp(4rem,19vw,8.5rem);line-height:1;margin:0;letter-spacing:-.02em;text-shadow:0 6px 30px rgba(20,8,60,.35)}
 .tagline{font-size:clamp(1.4rem,6vw,2.1rem);margin:8px 0 22px;color:var(--on-d-sub);line-height:1.3}
 .hero-text{display:flex;flex-direction:column;align-items:center;position:relative;z-index:2}
@@ -135,7 +135,7 @@ footer small{opacity:.7}
 /* 언어 선택 입구(/) */
 body.picker{background:linear-gradient(165deg,var(--hero2),var(--hero3));color:#fff;min-height:100vh}
 body.picker main{max-width:640px;margin:0 auto;padding:48px 20px;text-align:center}
-.pk-allong{width:150px;height:auto}
+.pk-allong{width:192px;height:auto;image-rendering:pixelated}
 body.picker h1{font-size:3.4rem}
 body.picker ul{list-style:none;padding:0;margin:24px 0 0;display:grid;grid-template-columns:repeat(auto-fill,minmax(140px,1fr));gap:10px}
 body.picker a{display:flex;justify-content:center;align-items:center;min-height:48px;border:1px solid rgba(255,255,255,.35);border-radius:14px;color:#fff;text-decoration:none;background:rgba(255,255,255,.08)}
@@ -152,7 +152,7 @@ body.picker a{display:flex;justify-content:center;align-items:center;min-height:
  .hero-ph .p1{margin-left:-120px}
  .hero-ph .p2{--pw:290px;margin-left:80px;top:60px}
  .hero-text{grid-area:1/1}
- .face{grid-area:1/2;order:0;align-self:end;justify-self:start;width:400px;margin:0 0 6px -90px;z-index:4}
+ .face{grid-area:1/2;order:0;align-self:end;justify-self:start;width:384px;margin:0 0 6px -82px;z-index:4}
   .feat-in{display:grid;grid-template-columns:1fr 1fr;gap:40px;align-items:center;text-align:left;padding:96px 32px 0;min-height:700px}
  .feat-txt .spr{margin:28px 0 0}
  .feat-ph{height:620px;gap:32px;align-self:end}

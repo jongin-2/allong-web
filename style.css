@@ -106,7 +106,7 @@ h1{font-size:clamp(4rem,19vw,8.5rem);line-height:1;margin:0;letter-spacing:-.02e
 .silbox{display:flex;justify-content:center;align-items:flex-end;gap:4px;height:84px}
 .sil{height:72px;width:auto;filter:brightness(1.18) saturate(1.15)}
 .sil.big{height:84px}
-.sil.al{height:76px}.sil.al.crew{height:96px;margin:0 2px}
+.sil.al{height:60px}.sil.al.crew{height:76px;margin:0 2px}   /* 실루엣 414×348(10-25 새 비율, 위 빈 줄 자름) — 옛 414×438과 같은 너비가 되게 높이를 348/438로 */
 .soon-i.crewc,.soon-i:nth-child(4){grid-column:1/-1}
 .soon-i.crewc .silbox{height:100px}
 .sil.sx{height:74px;filter:none}
@@ -166,7 +166,7 @@ body.picker a{display:flex;justify-content:center;align-items:center;min-height:
  .dl.boss img{width:190px}
  .dl{margin-right:28px}
  .crowd{gap:12px}
- .sil.al{height:122px}.sil.al.crew{height:94px;margin:0 -2px}
+ .sil.al{height:97px}.sil.al.crew{height:75px;margin:0 -2px}
  .soon-i.crewc,.soon-i:nth-child(4){grid-column:auto}
  .soon-i.crewc .silbox{height:140px}
  .soon-l{grid-template-columns:repeat(4,1fr);gap:20px}
